@@ -1,0 +1,15 @@
+div{
+    border: 30px solid pink;
+    border-radius:60%;  
+    height: 70px;
+    width: 40px;
+    position: absolute;
+    animation-name: move;
+    animation-duration: 5s;
+  
+  }
+  @keyframes move{
+    from{left :0px;background-color:green;}
+    to{ left: 100px;background-color:pink;}
+  }
+  
